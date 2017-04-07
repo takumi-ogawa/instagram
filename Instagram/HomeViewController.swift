@@ -115,6 +115,9 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
         // セル内のボタンのアクションをソースコードで設定する
         cell.likeButton.addTarget(self, action:#selector(handleButton(sender:event:)), for:  UIControlEvents.touchUpInside)
         
+        cell.commentButton.addTarget(self, action:#selector(handlecommentButton(sender:event:)), for:  UIControlEvents.touchUpInside)
+        
+        
         return cell
     }
     
@@ -166,7 +169,7 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
     }
     
     //コメントボタンが押された時のメソッド
-    func handlecomenntoButton (sender:UIButton, event:UIEvent){
+    func handlecommentButton (sender:UIButton, event:UIEvent){
         
         // タップされたセルのインデックスを求める
         let touch = event.allTouches?.first

@@ -148,7 +148,7 @@
         <!--Comment View Controller-->
         <scene sceneID="gDr-Dr-Aue">
             <objects>
-                <viewController storyboardIdentifier="Comment" id="KS3-wb-eCB" customClass="CommentViewController" customModule="ESTabBarController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Comment" id="KS3-wb-eCB" customClass="CommentViewController" customModule="Instagram" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7Sj-0E-r0f"/>
                         <viewControllerLayoutGuide type="bottom" id="MvB-6J-dKQ"/>
