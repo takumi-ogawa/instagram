@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         FIRApp.configure()
         
         // Adobeの管理画面で登録したアプリの API key と Client secret の文字列を設定する
-        AdobeUXAuthManager.shared().setAuthenticationParametersWithClientID("登録したアプリの API key", withClientSecret: "登録したアプリの Client secret")
+        AdobeUXAuthManager.shared().setAuthenticationParametersWithClientID("40c73018dd04486aa69a42fa9c85dca1", withClientSecret: "55131310-e245-4a89-95b8-8da315c2499b")
         
         return true
     }
