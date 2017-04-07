@@ -14,7 +14,7 @@ import FirebaseDatabase
 class CommentViewController: UIViewController {
     
     var postData:PostData!
-    var displayName:String!
+    var displayName:String = ""
     
     
     @IBOutlet weak var commentTextview: UITextView!
